@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="654e2dd0-f187-4d48-a766-5b38aa90886a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Compilation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgenceRest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgenceRest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgenceRest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgenceRest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgenceRest/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelRest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelRest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelRest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelRest/HotelRest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/704/SOAP/.idea/SOAP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/704/TDP2/gui/gui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/704/TP_3P/Web_service/Web_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/704/double_dispatch/double_dispatch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/705/TP3/TP3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/dictionary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/out/production/dictionary/dictionary/dictionary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/704/TDP2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/704/TDP2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/705/TP2/PP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/705/TP2/PP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/705/TP2/pp.g4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/705/TP2/pp.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/FastDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/FastDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/SortedDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/SortedDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/UtilisationDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/UtilisationDictionary.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2HWrrVD7DFwYBvKbqh2TsyJZYsa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="654e2dd0-f187-4d48-a766-5b38aa90886a" name="Changes" comment="" />
+      <created>1668411881093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668411881093</updated>
+    </task>
+    <servers />
+  </component>
+</project>

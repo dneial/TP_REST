@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d84d52c0-fb84-44b7-848f-eb1945d1b31e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Compilation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/704/TDP2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/704/TDP2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/705/TP2/PP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/705/TP2/PP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/705/TP2/pp.g4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/705/TP2/pp.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/FastDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/FastDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/SortedDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/SortedDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/UtilisationDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/UtilisationDictionary.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2HWrn5X03je4rHoGsSXoykf45Cc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d84d52c0-fb84-44b7-848f-eb1945d1b31e" name="Changes" comment="" />
+      <created>1668411846613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668411846613</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
