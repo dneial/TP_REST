@@ -53,7 +53,7 @@ public class HotelCreator {
         int i = 0;
         Random rand = new Random();
         for(String n: h_names){
-            hotels.add(new Hotel(n, addrs.get(i++), rand.nextInt(4) + 1));
+            hotels.add(new Hotel((long) i, n, addrs.get(i++), rand.nextInt(4) + 1));
         }
         return hotels;
     }

@@ -1,11 +1,8 @@
 package com.example.models;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
-import java.io.Serializable;
 
 @Entity
 public class Chambre {
@@ -13,17 +10,21 @@ public class Chambre {
     @Id
     @GeneratedValue
     private long id;
-
     private int nbPlace;
     private int prix;
     private int numeroChambre;
+    private long hotel_id;
+
+    @ManyToOne
+    private Hotel hotel;
 
 
-
-    public Chambre(int nbPlace, int prix_hotel, int numeroChambre) {
+    public Chambre(long id, int nbPlace, int numeroChambre, long hotelId) {
+        this.id = id;
         this.nbPlace = nbPlace;
-        this.prix = nbPlace * 20 * prix_hotel;
+        this.prix = nbPlace * 20;
         this.numeroChambre = numeroChambre;
+        this.hotel_id = hotelId;
     }
 
     public Chambre() {
@@ -63,10 +64,6 @@ public class Chambre {
         this.prix = prix;
     }
 
-    public static Chambre createChambre(int nbPlace, int prix_hotel, int numeroChambre){
-        return new Chambre(nbPlace, prix_hotel, numeroChambre);
-    }
-
     public String toString(){
         String s = "Chambre: \n";
         s += numeroChambre + "\n";
@@ -88,5 +85,13 @@ public class Chambre {
     @Override
     public int hashCode() {
         return (int) id;
+    }
+
+    public long getHotelId() {
+        return hotel_id;
+    }
+
+    public void setHotelId(long hotelId) {
+        this.hotel_id = hotelId;
     }
 }

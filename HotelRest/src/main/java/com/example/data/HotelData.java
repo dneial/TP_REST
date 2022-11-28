@@ -1,5 +1,6 @@
 package com.example.data;
 
+import com.example.models.Adresse;
 import com.example.models.Hotel;
 import com.example.models.HotelCreator;
 import com.example.models.HotelLoader;
@@ -14,13 +15,11 @@ import java.util.ArrayList;
 public class HotelData {
 
     @Bean
-    public CommandLineRunner initDatabase(HotelRepository repository){
+    public CommandLineRunner initHotelDatabase(HotelRepository repository){
         HotelCreator hc = new HotelCreator();
         ArrayList<Hotel> hotels = hc.createHotels();
         return args -> {
-            for(Hotel hotel : hotels){
-                repository.save(hotel);
-            }
+            repository.saveAll(hotels);
         };
     }
 }
