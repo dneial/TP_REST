@@ -1,9 +1,7 @@
 package com.example.data;
 
-import com.example.models.Adresse;
 import com.example.models.Hotel;
 import com.example.models.HotelCreator;
-import com.example.models.HotelLoader;
 import com.example.repositories.HotelRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

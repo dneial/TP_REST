@@ -23,13 +23,7 @@ public class ChambreController {
 
     @GetMapping(uri + "/hotels/{hotelId}/chambres")
     public List<Chambre> getChambresByHotelId(@PathVariable long hotelId){
-        List<Chambre> cs = chambreRepository.findAll();
-        for(Chambre c : cs){
-            if(c.getHotelId() != hotelId){
-                cs.remove(c);
-            }
-        }
-        return cs;
+        return chambreRepository.findByHotelId(hotelId);
     }
 
     @GetMapping(uri + "/chambres")
@@ -37,4 +31,8 @@ public class ChambreController {
         return chambreRepository.findAll();
     }
 
+    @GetMapping(uri + "/chambres/count")
+    public long countChambres(){
+        return chambreRepository.count();
+    }
 }

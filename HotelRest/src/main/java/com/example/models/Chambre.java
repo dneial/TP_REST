@@ -12,18 +12,16 @@ public class Chambre {
     private long id;
     private int nbPlace;
     private int prix;
-    private int numeroChambre;
     private long hotel_id;
 
     @ManyToOne
     private Hotel hotel;
 
 
-    public Chambre(long id, int nbPlace, int numeroChambre, long hotelId) {
+    public Chambre(long id, int nbPlace, long hotelId) {
         this.id = id;
         this.nbPlace = nbPlace;
         this.prix = nbPlace * 20;
-        this.numeroChambre = numeroChambre;
         this.hotel_id = hotelId;
     }
 
@@ -38,14 +36,6 @@ public class Chambre {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public int getNumeroChambre() {
-        return numeroChambre;
-    }
-
-    public void setNumeroChambre(int numeroChambre) {
-        this.numeroChambre = numeroChambre;
     }
 
     public int getNbPlace() {
@@ -66,7 +56,6 @@ public class Chambre {
 
     public String toString(){
         String s = "Chambre: \n";
-        s += numeroChambre + "\n";
         s += "Nombre de places: " + nbPlace + "\n";
         s += "Prix par nuit: " + prix + "\n";
         return s;
@@ -78,8 +67,7 @@ public class Chambre {
         if (o == null || getClass() != o.getClass()) return false;
         Chambre chambre = (Chambre) o;
         return nbPlace == chambre.nbPlace
-                && prix == chambre.prix
-                && numeroChambre == chambre.numeroChambre;
+                && prix == chambre.prix;
     }
 
     @Override

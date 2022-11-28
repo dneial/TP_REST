@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EX2/HotelRest/HotelRest.iml" filepath="$PROJECT_DIR$/EX2/HotelRest/HotelRest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotelRest/HotelRest (1).iml" filepath="$PROJECT_DIR$/HotelRest/HotelRest (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TP_REST.iml" filepath="$PROJECT_DIR$/.idea/TP_REST.iml" />
+    </modules>
+  </component>
+</project>

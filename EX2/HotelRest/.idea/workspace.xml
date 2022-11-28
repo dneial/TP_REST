@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84d52c0-fb84-44b7-848f-eb1945d1b31e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Compilation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../M1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../S1/704/TDP2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/704/TDP2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../S1/705/TP2/PP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/705/TP2/PP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../S1/705/TP2/pp.g4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/705/TP2/pp.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/FastDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/FastDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/SortedDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/SortedDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/UtilisationDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../S1/712/TD1/src/dictionary/UtilisationDictionary.java" afterDir="false" />
+    <list default="true" id="b777bffc-c616-4872-a77e-b3e0fc49f0ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/HotelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/HotelRestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/data/HotelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel/Adresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel/Chambre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel/HotelCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel/HotelLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/hotelrest/repositories/HotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgenceRest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgenceRest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgenceRest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgenceRest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgenceRest/AgenceRest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgenceRest/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientRest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientRest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientRest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientRest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientRest/ClientRest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientRest/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelRest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="2HWrn5X03je4rHoGsSXoykf45Cc" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HWvmy0YrHOwNvJkf6Sq49J3svB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,21 +64,65 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/e20220002252/Documents/M1_git/TP_REST/EX2/HotelRest/src/main/java/com/example/hotelrest/hotel",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/hotelrest/hotel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HotelCreator">
+    <configuration name="HotelCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.hotelrest.hotel.HotelCreator" />
+      <module name="HotelRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hotelrest.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="HotelRest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hotelrest.HotelRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HotelCreator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d84d52c0-fb84-44b7-848f-eb1945d1b31e" name="Changes" comment="" />
-      <created>1668411846613</created>
+      <changelist id="b777bffc-c616-4872-a77e-b3e0fc49f0ec" name="Changes" comment="" />
+      <created>1668413819259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668411846613</updated>
+      <updated>1668413819259</updated>
+      <workItem from="1668413822659" duration="7762000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

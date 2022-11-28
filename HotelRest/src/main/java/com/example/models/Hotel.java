@@ -18,13 +18,15 @@ public class Hotel{
     private String nom;
     private Adresse adresse;
     private int nbEtoile;
-//
-//    @OneToMany
-//    private ArrayList<Chambre> chambres;
 
-//    @OneToMany
-//    private ArrayList<Reservation> reservations;
+/*
+    @OneToMany
+    private ArrayList<Chambre> chambres;
 
+    @OneToMany
+    private ArrayList<Reservation> reservations;
+
+* */
     public Hotel(){
 
     }
