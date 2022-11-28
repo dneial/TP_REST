@@ -1,12 +1,9 @@
-/*
 package com.example.controllers;
 
 import com.example.models.Reservation;
 import com.example.repositories.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,5 +21,15 @@ public class ReservationController {
         return reservationRepository.findByHotelId(id);
     }
 
+    @GetMapping(uri+"/hotels/{id}/reservations/{idChambre}")
+    public List<Reservation> getReservationsByChambreId(@PathVariable long id, @PathVariable long idChambre){
+        return reservationRepository.findByChambreId(idChambre);
+    }
+
+    @PostMapping(uri+"/hotels/{id}/reservations")
+    public Reservation addReservation(@PathVariable long id, @RequestBody Reservation reservation){
+        reservation.setHotelId(id);
+        return reservationRepository.save(reservation);
+    }
+
 }
-*/

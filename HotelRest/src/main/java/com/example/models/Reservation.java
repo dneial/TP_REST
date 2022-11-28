@@ -17,12 +17,18 @@ public class Reservation  {
 /*    @ManyToOne
     private Chambre chambre;*/
 
+    @OneToOne
+    private Chambre chambre;
+
+    private long chambre_id;
+
     private Calendar dateDebut;
     private Calendar dateFin;
 
     @ManyToOne
     private Hotel hotel;
 
+    private long hotel_id;
 
     public Reservation(String nom, Calendar dateDebut, Calendar dateFin) {
         this.nomClient = nom;
@@ -89,5 +95,21 @@ public class Reservation  {
     @Override
     public int hashCode() {
         return Objects.hash(nomClient, dateDebut, dateFin);
+    }
+
+    public long getHotelId() {
+        return hotel_id;
+    }
+
+    public void setHotelId(long hotelId) {
+        this.hotel_id = hotelId;
+    }
+
+    public long getChambreId() {
+        return chambre_id;
+    }
+
+    public void setChambreId(long chambreId) {
+        this.chambre_id = chambreId;
     }
 }

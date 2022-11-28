@@ -1,8 +1,9 @@
+/*
 package com.example.data;
 
 import com.example.models.Adresse;
-import com.example.models.Hotel;
 import com.example.models.HotelCreator;
+import com.example.repositories.AdresseRepository;
 import com.example.repositories.HotelRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -11,13 +12,14 @@ import org.springframework.context.annotation.Configuration;
 import java.util.ArrayList;
 
 @Configuration
-public class HotelData {
-
+public class AdresseData {
     @Bean
-    public CommandLineRunner initHotelDatabase(HotelRepository repository){
-        Adresse a1 = new Adresse(0, "France", "Paris", "Rue des Papillons", 1, "75001");
+    public CommandLineRunner initAdresseDatabase(AdresseRepository repository){
+        HotelCreator hc = new HotelCreator();
+        ArrayList<Adresse> adresses = hc.createAdresses();
         return args -> {
-            repository.save(new Hotel(0,"Hotel de la Paix", a1, 5));
+            repository.saveAll(adresses);
         };
     }
 }
+*/

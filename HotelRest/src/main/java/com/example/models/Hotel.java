@@ -1,9 +1,6 @@
 package com.example.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -16,7 +13,9 @@ public class Hotel{
     @GeneratedValue
     private long id;
     private String nom;
+
     private Adresse adresse;
+
     private int nbEtoile;
 
 /*
@@ -36,8 +35,8 @@ public class Hotel{
         this.adresse = adresse;
         this.nbEtoile = nbEtoile;
         this.id = id;
-//        this.chambres = createChambres();
-//        this.reservations = new ArrayList<>();
+        //this.chambres = createChambres();
+        //this.reservations = new ArrayList<>();
     }
 
 //    private ArrayList<Chambre> createChambres() {
@@ -60,6 +59,8 @@ public class Hotel{
         return adresse;
     }
 
+
+
     public int getNbEtoile() {
         return nbEtoile;
     }
@@ -67,6 +68,7 @@ public class Hotel{
     public void setNbEtoile(int nbEtoile) {
         this.nbEtoile = nbEtoile;
     }
+
 
 //    public ArrayList<Chambre> getChambres() {
 //        return chambres;

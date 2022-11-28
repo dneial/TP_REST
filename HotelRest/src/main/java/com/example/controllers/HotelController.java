@@ -34,37 +34,11 @@ public class HotelController {
                 .orElseThrow(() -> new HotelNotFoundException("Hotel with id " + id + " not found"));
     }
 
-    @GetMapping(uri + "/hotels/critere/{ville}/{nbEtoile}")
-    public List<Hotel> getHotelByCritere(@PathVariable String ville, @PathVariable int nbEtoile) throws HotelNotFoundException {
-        List<Hotel> hotels = hotelRepository.findAll();
-        List<Hotel> hotelsByCritere = new ArrayList<>();
-        for(Hotel h : hotels){
-            if(h.getAdresse().getVille().toLowerCase().equals(ville.toLowerCase())
-                    && h.getNbEtoile() == nbEtoile){
-                hotelsByCritere.add(h);
-            }
-        }
-        if(hotelsByCritere.size() == 0){
-            throw new HotelNotFoundException("No hotel found in " + ville);
-        }
+/*    @GetMapping(uri + "/hotels")
+    public List<Hotel> getHotelByCritere(@RequestParam int nbEtoile, @RequestParam String ville){
+        return hotelRepository.findByGreaterThanEqualNbEtoileAndAdresseVille(nbEtoile, ville);
+    }*/
 
-        return hotelsByCritere;
-    }
-
-    @GetMapping(uri + "/hotels/ville/{ville}")
-    public List<Hotel> getHotelByVille(@PathVariable String ville) throws HotelNotFoundException {
-        List<Hotel> hotels = hotelRepository.findAll();
-        List<Hotel> hotelsByVille = new ArrayList<>();
-        for(Hotel h : hotels){
-            if(h.getAdresse().getVille().toLowerCase().equals(ville.toLowerCase())){
-                hotelsByVille.add(h);
-            }
-        }
-        if(hotelsByVille.size() == 0){
-            throw new HotelNotFoundException("No hotel found in " + ville);
-        }
-        return hotelsByVille;
-    }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping(uri + "/hotels")
